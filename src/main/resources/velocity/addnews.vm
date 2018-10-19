@@ -1,0 +1,8 @@
+#parse("/velocity/layout.vm")
+#@mainLayout()
+    <h1>POST SOME REAL NEWS</h1>
+    <form method="post" action="/addnews/">
+        <textarea id="story" name="story"></textarea>
+        <button id="logout">PUBLISH IT!</button>
+    </form>
+#end
